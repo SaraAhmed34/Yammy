@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <!-- Fontasowme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- main css -->
+     <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="bg-black d-flex">
+    
+    <div class="menu text-white d-flex flex-column justify-content-between ">
+        <ul class="mt-4 ">
+            <li class="mb-3 saerch">Search</li>
+            <li class="mb-3 categories">Categories</li>
+            <li class="mb-3 areas">Area</li>
+            <li class="mb-3 ingredients">Ingredients</li>
+            <li class="mb-3 contact">Contact Us</li>
+            
+        </ul>
+        <div>
+            <div class="d-flex justify-content-around ">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <p class="text-center mt-2">Sara Ahmed Â© 2024 All Rights
+                Reserved.</p>
+        </div>
+    </div>
+    <aside class="bg-light d-flex flex-column justify-content-around align-items-center d-inline ">
+        <img src="./img/logo.png" alt="logo" class="logo ">
+        <i class="fa-solid fa-bars fs-1 open"></i>
+        <i class="fa-solid fa-xmark fs-1 close d-none"></i>
+        <div class=" d-flex flex-column">
+            <i class="fa-solid fa-globe mb-2"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+        
+    </aside>
+
+    <div class="loade d-flex justify-content-center align-items-center d-none ">
+        <span class="loader "></span>
+      </div>
+    <section class=" content  ">
+        <div class="searchSection d-flex mt-5 d-none">
+            <div class="col-md-6 me-2">
+                <input id="searchByName" class="bg-transparent form-control text-white " type="text"
+                    placeholder="search by name...">
+            </div>
+            <div class="col-md-6">
+                <input id="searchByLetter" class="bg-transparent form-control text-light" type="text"
+                    placeholder="search by firstletter..." maxlength="1">
+            </div>
+        </div>
+        
+
+       <div class="ms-3  me-3 me-md-4 ms-md-4">
+        <div class="row mt-4 gy-3 display">
+            
+            
+            
+        </div>
+       </div>
+    </section>
+
+   
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+     <script src="./js/jquery-3.7.1.js"></script>
+     <!-- ui js -->
+      <script type="module" src="./js/ui.js"></script>
+       <script type="module" src="./js/search.js"></script>
+       <script type="module" src="./js/ingredants.js"></script>
+       <script src="./js/contact.js"></script>
+</body>
+</html>
